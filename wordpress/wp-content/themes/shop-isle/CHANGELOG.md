@@ -1,4 +1,8 @@
 
+### 2.2.13 - 10/04/2017
+**Changes:** 
+- Fixed Product gallery thumbnails issue with WooCommerce 3.0.0
+
 ### 2.2.12 - 07/04/2017
 **Changes:** 
 - Fixed compatibility with WooCommerce 3.0.0

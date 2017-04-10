@@ -13,7 +13,7 @@ define( 'SHOP_ISLE_PHP_INCLUDE',  get_template_directory() . '/inc' );
  */
 
 if ( ! defined( 'SI_VERSION' ) ) {
-	define( 'SI_VERSION', '1.1.18' );
+	define( 'SI_VERSION', '1.1.19' );
 }
 
 /**
