@@ -51,14 +51,14 @@ jQuery( function( $ ) {
 						currencyCode: wc_stripe_apple_pay_single_params.currency_code,
 						total: {
 							label: wc_stripe_apple_pay_single_params.label,
-							amount: 1,
+							amount: '1.00',
 							type: 'pending'
 						},
-						lineItems: {
+						lineItems: [{
 							label: wc_stripe_apple_pay_single_params.i18n.sub_total,
-							amount: 1,
+							amount: '1.00',
 							type: 'pending'
-						},
+						}],
 						requiredBillingContactFields: ['postalAddress'],
 						requiredShippingContactFields: 'yes' === wc_stripe_apple_pay_single_params.needs_shipping ? ['postalAddress', 'phone', 'email', 'name'] : ['phone', 'email', 'name']
 					};

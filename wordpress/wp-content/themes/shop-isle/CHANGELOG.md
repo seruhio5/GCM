@@ -1,4 +1,12 @@
 
+### 2.2.12 - 07/04/2017
+**Changes:** 
+- Fixed compatibility with WooCommerce 3.0.0
+
+### 2.2.11 - 06/04/2017
+**Changes:** 
+- Fixed compatibility issues with WooCommerce 3.0.0
+
 ### 2.2.10 - 30/03/2017
 **Changes:** 
 - Added Out of stock badges

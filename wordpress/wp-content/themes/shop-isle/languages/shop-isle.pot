@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: ShopIsle PRO 2.2.9\n"
+"Project-Id-Version: ShopIsle PRO 2.2.11\n"
 "Report-Msgid-Bugs-To: https://github.com/Codeinwp/shop-isle-pro/issues\n"
-"POT-Creation-Date: 2017-03-28 14:04:44+00:00\n"
+"POT-Creation-Date: 2017-04-07 15:00:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,8 +37,8 @@ msgstr ""
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:49
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:56
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:63
-#: inc/functions/setup.php:341 inc/functions/setup.php:348
-#: inc/functions/setup.php:355 inc/sections/shop_isle_big_title_section.php:22
+#: inc/functions/setup.php:347 inc/functions/setup.php:354
+#: inc/functions/setup.php:361 inc/sections/shop_isle_big_title_section.php:22
 #: inc/sections/shop_isle_slider_section.php:27
 #: inc/sections/shop_isle_slider_section.php:34
 #: inc/sections/shop_isle_slider_section.php:41 index.php:129
@@ -485,8 +485,8 @@ msgstr ""
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:47
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:54
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:61
-#: inc/functions/setup.php:339 inc/functions/setup.php:346
-#: inc/functions/setup.php:353 inc/sections/shop_isle_slider_section.php:25
+#: inc/functions/setup.php:345 inc/functions/setup.php:352
+#: inc/functions/setup.php:359 inc/sections/shop_isle_slider_section.php:25
 #: inc/sections/shop_isle_slider_section.php:32
 #: inc/sections/shop_isle_slider_section.php:39
 msgid "Shop Isle"
@@ -801,7 +801,7 @@ msgid "About us page - our advantages"
 msgstr ""
 
 #: inc/customizer/features/feature-about-us-controls.php:243
-#: inc/functions/setup.php:495 inc/sections/shop_isle_services_section.php:22
+#: inc/functions/setup.php:501 inc/sections/shop_isle_services_section.php:22
 #: template-about.php:325
 msgid "Ideas and concepts"
 msgstr ""
@@ -810,26 +810,26 @@ msgstr ""
 #: inc/customizer/features/feature-about-us-controls.php:249
 #: inc/customizer/features/feature-about-us-controls.php:254
 #: inc/customizer/features/feature-about-us-controls.php:259
-#: inc/functions/setup.php:496 inc/functions/setup.php:501
-#: inc/functions/setup.php:506 inc/functions/setup.php:511
+#: inc/functions/setup.php:502 inc/functions/setup.php:507
+#: inc/functions/setup.php:512 inc/functions/setup.php:517
 #: template-about.php:326 template-about.php:331 template-about.php:336
 #: template-about.php:341
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 msgstr ""
 
 #: inc/customizer/features/feature-about-us-controls.php:248
-#: inc/functions/setup.php:500 template-about.php:330
+#: inc/functions/setup.php:506 template-about.php:330
 msgid "Designs & interfaces"
 msgstr ""
 
 #: inc/customizer/features/feature-about-us-controls.php:253
-#: inc/functions/setup.php:505 inc/sections/shop_isle_services_section.php:33
+#: inc/functions/setup.php:511 inc/sections/shop_isle_services_section.php:33
 #: template-about.php:335
 msgid "Highly customizable"
 msgstr ""
 
 #: inc/customizer/features/feature-about-us-controls.php:258
-#: inc/functions/setup.php:510 inc/sections/shop_isle_services_section.php:34
+#: inc/functions/setup.php:516 inc/sections/shop_isle_services_section.php:34
 #: template-about.php:340
 msgid "Easy to use"
 msgstr ""
@@ -969,8 +969,8 @@ msgstr ""
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:48
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:55
 #: inc/customizer/features/feature-frontpage-slider-section-controls.php:62
-#: inc/functions/setup.php:340 inc/functions/setup.php:347
-#: inc/functions/setup.php:354 inc/sections/shop_isle_big_title_section.php:21
+#: inc/functions/setup.php:346 inc/functions/setup.php:353
+#: inc/functions/setup.php:360 inc/sections/shop_isle_big_title_section.php:21
 #: inc/sections/shop_isle_slider_section.php:26
 #: inc/sections/shop_isle_slider_section.php:33
 #: inc/sections/shop_isle_slider_section.php:40
@@ -1086,12 +1086,12 @@ msgstr ""
 
 #: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:72
 #: inc/sections/shop_isle_products_slider_section.php:21
-#: inc/woocommerce/functions.php:351
+#: inc/woocommerce/functions.php:333
 msgid "Exclusive products"
 msgstr ""
 
 #: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:85
-#: inc/woocommerce/functions.php:352
+#: inc/woocommerce/functions.php:334
 msgid "Special category of products"
 msgstr ""
 
@@ -1222,27 +1222,27 @@ msgstr ""
 msgid "Keep the old static frontpage template?"
 msgstr ""
 
-#: inc/functions/setup.php:182
+#: inc/functions/setup.php:188
 msgid "Sidebar"
 msgstr ""
 
-#: inc/functions/setup.php:191
+#: inc/functions/setup.php:197
 msgid "Footer area 1"
 msgstr ""
 
-#: inc/functions/setup.php:200
+#: inc/functions/setup.php:206
 msgid "Footer area 2"
 msgstr ""
 
-#: inc/functions/setup.php:209
+#: inc/functions/setup.php:215
 msgid "Footer area 3"
 msgstr ""
 
-#: inc/functions/setup.php:218
+#: inc/functions/setup.php:224
 msgid "Footer area 4"
 msgstr ""
 
-#: inc/functions/setup.php:227
+#: inc/functions/setup.php:233
 msgid "Sidebar Shop Page"
 msgstr ""
 
@@ -1251,29 +1251,31 @@ msgstr ""
 msgid "View your shopping cart"
 msgstr ""
 
-#: inc/sections/shop_isle_products_section.php:117
-#: inc/sections/shop_isle_products_section.php:252
+#: inc/sections/shop_isle_products_section.php:146
+#: inc/sections/shop_isle_products_section.php:276
 msgid "Quick View"
 msgstr ""
 
-#: inc/sections/shop_isle_products_section.php:143
-#: inc/sections/shop_isle_products_section.php:279
-#: inc/sections/shop_isle_products_slider_section.php:107
-#: inc/sections/shop_isle_products_slider_section.php:183
-#: inc/woocommerce/functions.php:681
+#: inc/sections/shop_isle_products_section.php:177
+#: inc/sections/shop_isle_products_section.php:308
+#: inc/sections/shop_isle_products_slider_section.php:139
+#: inc/sections/shop_isle_products_slider_section.php:208
+#: inc/woocommerce/functions.php:658
 msgid "Out of Stock"
 msgstr ""
 
-#: inc/sections/shop_isle_products_section.php:163
-#: inc/sections/shop_isle_products_section.php:299
+#: inc/sections/shop_isle_products_section.php:197
+#: inc/sections/shop_isle_products_section.php:199
+#: inc/sections/shop_isle_products_section.php:328
+#: inc/sections/shop_isle_products_section.php:330
 msgid "See all products"
 msgstr ""
 
-#: inc/sections/shop_isle_products_section.php:172
+#: inc/sections/shop_isle_products_section.php:208
 msgid "No products found."
 msgstr ""
 
-#: inc/sections/shop_isle_products_section.php:307
+#: inc/sections/shop_isle_products_section.php:338
 msgid ""
 "For this section to work, you first need to install the WooCommerce plugin "
 ", create some products, and insert a WooCommerce shortocode or select a "

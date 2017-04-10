@@ -113,7 +113,6 @@ function shop_isle_products_slider_controls_customize_register( $wp_customize ) 
 	endif;
 
 	$wp_customize->add_setting( 'shop_isle_products_slider_category', array(
-		'transport'         => 'postMessage',
 		'sanitize_callback' => 'shop_isle_sanitize_text',
 	) );
 	$wp_customize->add_control(

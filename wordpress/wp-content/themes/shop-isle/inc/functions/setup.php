@@ -13,7 +13,7 @@ define( 'SHOP_ISLE_PHP_INCLUDE',  get_template_directory() . '/inc' );
  */
 
 if ( ! defined( 'SI_VERSION' ) ) {
-	define( 'SI_VERSION', '1.1.16' );
+	define( 'SI_VERSION', '1.1.18' );
 }
 
 /**
@@ -168,6 +168,12 @@ if ( ! function_exists( 'shop_isle_setup' ) ) :
 
 		/* tgm-plugin-activation */
 		require_once get_template_directory() . '/class-tgm-plugin-activation.php';
+
+		if ( class_exists( 'WooCommerce' ) ) {
+			add_theme_support( 'wc-product-gallery-zoom' );
+			add_theme_support( 'wc-product-gallery-lightbox' );
+			add_theme_support( 'wc-product-gallery-slider' );
+		}
 	}
 endif; // shop_isle_setup
 
