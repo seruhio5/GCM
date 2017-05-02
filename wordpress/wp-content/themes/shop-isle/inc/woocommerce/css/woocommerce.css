@@ -2184,8 +2184,8 @@ td.product-subtotal span.amount {
 }
 
 #review_form_wrapper form {
-	margin-top: 25px;
 	float: left;
+	margin-top: 25px;
 	margin-left: -15px;
 }
 
@@ -3058,8 +3058,8 @@ Single product page
 }
 
 .single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img {
-	cursor: pointer;
 	width: auto;
+	cursor: pointer;
 }
 
 .single-product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:after {
@@ -4292,7 +4292,6 @@ a.button.yith-wcqv-button:hover {
 		margin-right: 10px;
 	}
 
-
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li:nth-child(5n+1),
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li:first-child {
 		margin-left: 0;
@@ -4472,9 +4471,11 @@ a.button.yith-wcqv-button:hover {
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li:nth-child(4n) {
 		margin-right: 0 !important;
 	}
+
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li:nth-child(5n) {
 		margin-right: 4px;
 	}
+
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li:nth-child(4n+1),
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li:first-child {
 		margin-left: 0;
@@ -4690,7 +4691,6 @@ a.button.yith-wcqv-button:hover {
 	.single-product .woocommerce-product-gallery .flex-control-thumbs li {
 		margin: 2px 4px 10px 0 !important;
 	}
-
 }
 
 @media(min-width: 991px) and (max-width:1200px) {

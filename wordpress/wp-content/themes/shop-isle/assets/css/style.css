@@ -2519,6 +2519,58 @@ Home Section
 	padding: 70px 0 70px;
 }
 
+.owl-carousel .owl-nav {
+	font-family: "flexslider-icon";
+	font-size: 16px;
+	line-height: 1;
+}
+
+.owl-carousel .owl-nav .owl-prev:before {
+	content: "\f001";
+}
+.owl-carousel .owl-nav .owl-prev {
+	float: left;
+}
+
+.owl-carousel .owl-nav .owl-next:before {
+	content: "\f002";
+}
+.owl-carousel .owl-nav .owl-next {
+	float: right;
+}
+
+.owl-carousel[data-rtl="true"] .owl-nav .owl-next:before {
+	content: "\f001";
+}
+
+.owl-carousel[data-rtl="true"] .owl-nav .owl-next {
+	float: left;
+}
+
+.owl-carousel[data-rtl="true"] .owl-nav .owl-prev:before {
+	content: "\f002";
+}
+.owl-carousel[data-rtl="true"] .owl-nav .owl-prev {
+	float: right;
+}
+
+.owl-dots {
+	margin: 0 auto; /*for centering the dots*/
+}
+.owl-dot {
+	display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+	background: #333;
+}
+
+.owl-dot.active {
+	background: #e7e8eb;
+}
+
 
 /* -------------------------------------------------------------------
 Sections
@@ -3778,7 +3830,7 @@ Post
 	text-transform: uppercase;
 }
 
-#comments input:not([type="submit"]) {
+#comments input:not([type="submit"]):not([type="checkbox"]) {
 	height: 33px;
 	border: 1px solid #eaeaea;
 	border-radius: 2px;

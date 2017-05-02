@@ -1,4 +1,11 @@
 
+### 2.2.14 - 24/04/2017
+**Changes:** 
+- Fixed Max Mega Menu plugin compatibility
+- Fixed jetpack notification for new comments checkbox height
+- Fixed issue with Categories section titles not working in all cases
+- Update Owl library and added filters to control each parameter including RTL mode
+
 ### 2.2.13 - 10/04/2017
 **Changes:** 
 - Fixed Product gallery thumbnails issue with WooCommerce 3.0.0

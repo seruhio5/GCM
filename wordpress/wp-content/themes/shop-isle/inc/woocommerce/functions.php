@@ -397,9 +397,14 @@ function shop_isle_products_slider_on_single_page() {
 
 			if ( $shop_isle_products_slider_loop->have_posts() ) :
 
+				$rtl_slider = apply_filters( 'shop_isle_products_slider_single_rtl', 'false' );
+				$number_of_items = apply_filters( 'shop_isle_products_slider_single_items', 5 );
+				$pagination = apply_filters( 'shop_isle_products_slider_single_pagination', 'false' );
+				$navigation = apply_filters( 'shop_isle_products_slider_single_navigation', 'false' );
+
 				echo '<div class="row">';
 
-				echo '<div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">';
+				echo '<div class="owl-carousel text-center" data-items="' . esc_attr( $number_of_items ) . '" data-pagination="' . esc_attr( $pagination ) . '" data-navigation="' . esc_attr( $navigation ) . '" data-rtl="' . esc_attr( $rtl_slider ) . '" >';
 
 				while ( $shop_isle_products_slider_loop->have_posts() ) :
 
@@ -453,9 +458,14 @@ function shop_isle_products_slider_on_single_page() {
 
 					if ( $shop_isle_products_slider_loop->have_posts() ) :
 
-							echo '<div class="row">';
+						$rtl_slider = apply_filters( 'shop_isle_products_slider_single_rtl', 'false' );
+						$number_of_items = apply_filters( 'shop_isle_products_slider_single_items', 5 );
+						$pagination = apply_filters( 'shop_isle_products_slider_single_pagination', 'false' );
+						$navigation = apply_filters( 'shop_isle_products_slider_single_navigation', 'false' );
 
-								echo '<div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">';
+						echo '<div class="row">';
+
+						echo '<div class="owl-carousel text-center" data-items="' . esc_attr( $number_of_items ) . '" data-pagination="' . esc_attr( $pagination ) . '" data-navigation="' . esc_attr( $navigation ) . '" data-rtl="' . esc_attr( $rtl_slider ) . '" >';
 
 						while ( $shop_isle_products_slider_loop->have_posts() ) :
 

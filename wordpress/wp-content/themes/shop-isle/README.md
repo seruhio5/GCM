@@ -43,9 +43,9 @@ Copyright: 2011-2014 Twitter, Inc
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
-* OwlCarousel
-Copyright: 2013 Bartosz Wojciechowski
-Resource URI: http://www.owlgraphic.com/owlcarousel/
+* OwlCarousel 2.1.6
+Copyright: 2013 Bartosz Wojciechowski, David Deutsch
+Resource URI: https://owlcarousel2.github.io
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 

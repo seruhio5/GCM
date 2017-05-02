@@ -210,7 +210,7 @@
 		/* ---------------------------------------------- */
 
 		$(document).on('click','.navbar-collapse.in',function(e) {
-			if( $(e.target).is('a') && $(e.target).attr('class') !== 'dropdown-toggle' ) {
+            if( $(e.target).is('a') && $(e.target).attr('class') !== 'dropdown-toggle' && !$('body').hasClass('mega-menu-primary') ) {
 				$(this).collapse('hide');
 			}
 		});
@@ -272,16 +272,26 @@
 				navigation = false;
 			}
 
+            // Check rtl true/false
+            var rtl;
+            if (($(this).data('rtl') > 0) && ($(this).data('rtl') === true)) {
+                rtl = true;
+            } else {
+                rtl = false;
+            }
+
 			// Build carousel
 			$(this).owlCarousel( {
-				navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-				navigation: navigation,
-				pagination: pagination,
-				paginationSpeed: 400,
-				singleItem: false,
-				items: items,
-				slideSpeed: 300,
-				autoPlay: 5000
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                dots: pagination,
+                dotsSpeed: 400,
+                items: items,
+                rtl: rtl,
+                nav: navigation,
+                navText: ['', ''],
 			});
 
 		});

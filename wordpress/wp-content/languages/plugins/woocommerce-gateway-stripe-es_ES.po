@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-30 20:40:46+0000\n"
+"PO-Revision-Date: 2017-04-20 06:49:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - WooCommerce Stripe Payment Gateway - Stable (latest release)\n"
+
+#: includes/class-wc-stripe-apple-pay.php:402
+msgid "Buy with Apple Pay"
+msgstr "Comprar con Apple Pay"
 
 #: includes/class-wc-gateway-stripe.php:393
 msgid "Apple Pay domain verification failed. Please check the %1$slog%2$s to see the issue. (Logging must be enabled to see recorded logs)"
@@ -83,11 +87,11 @@ msgstr "Información adicional sobre un cargo. Esto aparecerá en el estado de l
 msgid "Statement Descriptor"
 msgstr "Descripción del estado"
 
-#: includes/class-wc-stripe-payment-request.php:308
+#: includes/class-wc-stripe-payment-request.php:310
 msgid "Subtotal"
 msgstr "Subototal"
 
-#: includes/class-wc-stripe-payment-request.php:286
+#: includes/class-wc-stripe-payment-request.php:288
 msgid "Empty cart"
 msgstr "Carrito vacío"
 
@@ -100,37 +104,37 @@ msgstr "Total"
 msgid "Unknown shipping option \"[option]\"."
 msgstr "Opción de envío desconocida \"[option]\"."
 
-#: includes/class-wc-stripe-apple-pay.php:895
-#: includes/class-wc-stripe-apple-pay.php:902
-#: includes/class-wc-stripe-apple-pay.php:904
-#: includes/class-wc-stripe-apple-pay.php:927
-#: includes/class-wc-stripe-apple-pay.php:959
-#: includes/class-wc-stripe-apple-pay.php:991
-#: includes/class-wc-stripe-apple-pay.php:1015
+#: includes/class-wc-stripe-apple-pay.php:899
+#: includes/class-wc-stripe-apple-pay.php:906
+#: includes/class-wc-stripe-apple-pay.php:908
+#: includes/class-wc-stripe-apple-pay.php:931
+#: includes/class-wc-stripe-apple-pay.php:963
+#: includes/class-wc-stripe-apple-pay.php:995
+#: includes/class-wc-stripe-apple-pay.php:1019
 msgid "Error %d: Unable to create order. Please try again."
 msgstr "Error %d: No ha sido posible crear el pedido. Por favor, inténtalo de nuevo."
 
-#: includes/class-wc-stripe-apple-pay.php:877
+#: includes/class-wc-stripe-apple-pay.php:881
 msgid "Discount"
 msgstr "Descuento"
 
-#: includes/class-wc-stripe-apple-pay.php:869
+#: includes/class-wc-stripe-apple-pay.php:873
 msgid "Shipping"
 msgstr "Envío"
 
 #: includes/class-wc-stripe-apple-pay.php:290
-#: includes/class-wc-stripe-apple-pay.php:847
+#: includes/class-wc-stripe-apple-pay.php:851
 msgid "Sub-Total"
 msgstr "Subtotal"
 
-#: includes/class-wc-stripe-apple-pay.php:676
-#: includes/class-wc-stripe-apple-pay.php:861
-#: includes/class-wc-stripe-payment-request.php:348
+#: includes/class-wc-stripe-apple-pay.php:678
+#: includes/class-wc-stripe-apple-pay.php:865
+#: includes/class-wc-stripe-payment-request.php:350
 msgid "Tax"
 msgstr "Impuestos"
 
-#: includes/class-wc-stripe-apple-pay.php:606
-#: includes/class-wc-stripe-apple-pay.php:629
+#: includes/class-wc-stripe-apple-pay.php:608
+#: includes/class-wc-stripe-apple-pay.php:631
 msgid "Unable to find shipping method for address."
 msgstr "No ha sido posible encontrar un método de envío para la dirección."
 
@@ -141,9 +145,9 @@ msgstr "Por favor, introduce un código postal válido."
 #: includes/class-wc-stripe-apple-pay.php:200
 #: includes/class-wc-stripe-apple-pay.php:442
 #: includes/class-wc-stripe-apple-pay.php:496
-#: includes/class-wc-stripe-apple-pay.php:585
-#: includes/class-wc-stripe-apple-pay.php:648
-#: includes/class-wc-stripe-apple-pay.php:696
+#: includes/class-wc-stripe-apple-pay.php:587
+#: includes/class-wc-stripe-apple-pay.php:650
+#: includes/class-wc-stripe-apple-pay.php:698
 msgid "Cheatin&#8217; huh?"
 msgstr "¿Haciendo trampas?"
 
@@ -151,7 +155,7 @@ msgstr "¿Haciendo trampas?"
 msgid "Or"
 msgstr "O"
 
-#: includes/class-wc-gateway-stripe.php:952
+#: includes/class-wc-gateway-stripe.php:955
 msgid "Refunded %1$s - Refund ID: %2$s - Reason: %3$s"
 msgstr "Reembolsado %1$s - ID de reembolso: %2$s - Motivo: %3$s"
 
@@ -164,7 +168,7 @@ msgid "Customer Name"
 msgstr "Nombre del cliente"
 
 #: includes/class-wc-gateway-stripe.php:603
-#: includes/class-wc-stripe-apple-pay.php:764
+#: includes/class-wc-stripe-apple-pay.php:766
 msgid "%1$s - Order %2$s"
 msgstr "%1$s - Pedido %2$s"
 
@@ -310,7 +314,7 @@ msgstr "Cargo de Stripe devuelto (ID del cargo: %s)"
 msgid "Unable to refund charge!"
 msgstr "¡No se pudo devolver el cargo!"
 
-#: includes/class-wc-gateway-stripe.php:866 woocommerce-gateway-stripe.php:470
+#: includes/class-wc-gateway-stripe.php:869 woocommerce-gateway-stripe.php:470
 msgid "Stripe charge complete (Charge ID: %s)"
 msgstr "Cargo completo en Stripe (ID del cargo: %s)"
 
@@ -604,25 +608,25 @@ msgstr "Hubo un problema al tratar de conectar con la pasarela de pago."
 msgid "Refunded %s - Refund ID: %s - Reason: %s"
 msgstr "Devolución %s - ID de devolución: %s - Motivo: %s"
 
-#: includes/class-wc-gateway-stripe.php:891
-#: includes/class-wc-gateway-stripe.php:900
+#: includes/class-wc-gateway-stripe.php:894
+#: includes/class-wc-gateway-stripe.php:903
 #: includes/legacy/class-wc-gateway-stripe.php:542
 msgid "There was a problem adding the card."
 msgstr "Hubo un problema al añadir la tarjeta."
 
-#: includes/class-wc-gateway-stripe.php:877
+#: includes/class-wc-gateway-stripe.php:880
 #: includes/legacy/class-wc-gateway-stripe.php:528
 msgid "Stripe charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
 msgstr "Cargo autorizado de Stripe (ID del cargo: %s). Procesa el pedido para aceptar el pago, o cancela para borrar la autorización previa."
 
 #: includes/class-wc-gateway-stripe.php:364
-#: includes/class-wc-gateway-stripe.php:808
-#: includes/class-wc-stripe-apple-pay.php:744
+#: includes/class-wc-gateway-stripe.php:811
+#: includes/class-wc-stripe-apple-pay.php:746
 #: includes/legacy/class-wc-gateway-stripe.php:483
 msgid "Error: %s"
 msgstr "Error: %s"
 
-#: includes/class-wc-gateway-stripe.php:775
+#: includes/class-wc-gateway-stripe.php:778
 msgid "This card is no longer available and has been removed."
 msgstr "Esta tarjeta ya no está disponible o ha sido borrada."
 
@@ -691,28 +695,28 @@ msgstr "Stripe funciona añadiendo campos para la tarjeta de crédito en el pago
 msgid "Stripe"
 msgstr "Stripe"
 
-#: includes/class-wc-gateway-stripe-addons.php:384
-#: includes/class-wc-gateway-stripe-addons.php:389
+#: includes/class-wc-gateway-stripe-addons.php:404
+#: includes/class-wc-gateway-stripe-addons.php:409
 msgid "Via %1$s card ending in %2$s"
 msgstr "Mediante a la tarjeta %1$s terminada en %2$s"
 
-#: includes/class-wc-gateway-stripe-addons.php:217
-#: includes/class-wc-gateway-stripe-addons.php:260
+#: includes/class-wc-gateway-stripe-addons.php:235
+#: includes/class-wc-gateway-stripe-addons.php:278
 msgid "Stripe Transaction Failed (%s)"
 msgstr "Transacción a Stripe fallida (%s)"
 
-#: includes/class-wc-gateway-stripe-addons.php:160
+#: includes/class-wc-gateway-stripe-addons.php:178
 msgid "Unable to store payment details. Please try again."
 msgstr "No fue posible guardar los detalles del pago. Por favor, inténtalo de nuevo."
 
-#: includes/class-wc-gateway-stripe-addons.php:119
+#: includes/class-wc-gateway-stripe-addons.php:124
 msgid "Customer not found"
 msgstr "Cliente no encontrado"
 
-#: includes/class-wc-gateway-stripe-addons.php:106
-#: includes/class-wc-gateway-stripe-addons.php:153
-#: includes/class-wc-gateway-stripe.php:758
-#: includes/class-wc-stripe-apple-pay.php:710
+#: includes/class-wc-gateway-stripe-addons.php:111
+#: includes/class-wc-gateway-stripe-addons.php:171
+#: includes/class-wc-gateway-stripe.php:761
+#: includes/class-wc-stripe-apple-pay.php:712
 #: includes/legacy/class-wc-gateway-stripe.php:448
 msgid "Sorry, the minimum allowed order total is %1$s to use this payment method."
 msgstr "Lo siento, el pedido mínimo permitido para poder usar este método de pago es de %1$s."

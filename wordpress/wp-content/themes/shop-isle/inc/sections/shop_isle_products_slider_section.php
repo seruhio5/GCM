@@ -91,15 +91,21 @@ if ( ! empty( $meta_query_item ) ) {
 }
 
 
+
 if ( ! empty( $shop_isle_products_slider_category ) && ( $shop_isle_products_slider_category != '-' ) ) :
 
 	$shop_isle_products_slider_loop = new WP_Query( $shop_isle_products_slider_args );
 
 	if ( $shop_isle_products_slider_loop->have_posts() ) :
 
+		$rtl_slider = apply_filters( 'shop_isle_products_slider_section_rtl', 'false' );
+		$number_of_items = apply_filters( 'shop_isle_products_slider_section_items', 5 );
+		$pagination = apply_filters( 'shop_isle_products_slider_section_pagination', 'false' );
+		$navigation = apply_filters( 'shop_isle_products_slider_section_navigation', 'false' );
+
 		echo '<div class="row">';
 
-		echo '<div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">';
+		echo '<div class="owl-carousel text-center" data-items="' . esc_attr( $number_of_items ) . '" data-pagination="' . esc_attr( $pagination ) . '" data-navigation="' . esc_attr( $navigation ) . '" data-rtl="' . esc_attr( $rtl_slider ) . '" >';
 
 		while ( $shop_isle_products_slider_loop->have_posts() ) :
 
@@ -165,9 +171,13 @@ else :
 
 	if ( $shop_isle_products_slider_loop->have_posts() ) :
 
+		$rtl_slider = apply_filters( 'shop_isle_products_slider_section_rtl', 'false' );
+		$number_of_items = apply_filters( 'shop_isle_products_slider_section_items', 5 );
+		$pagination = apply_filters( 'shop_isle_products_slider_section_pagination', 'false' );
+		$navigation = apply_filters( 'shop_isle_products_slider_section_navigation', 'false' );
 		echo '<div class="row">';
 
-		echo '<div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">';
+		echo '<div class="owl-carousel text-center" data-items="' . esc_attr( $number_of_items ) . '" data-pagination="' . esc_attr( $pagination ) . '" data-navigation="' . esc_attr( $navigation ) . '" data-rtl="' . esc_attr( $rtl_slider ) . '">';
 
 		while ( $shop_isle_products_slider_loop->have_posts() ) :
 
